@@ -6,19 +6,10 @@ import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import Rank from "./components/Rank/Rank";
 import FaceRecognition from "./components/FaceRecognition";
 import Particles from "react-particles-js";
+import particleOptions from "../src/particlesOption"
 import "tachyons";
 
-const particleOptions = {
-  particles: {
-    number:{
-      value:75,
-      density:{
-        enable: true,
-        value_area: 800
-      }
-    }
-  }
-};
+
 function App() {
   return (
     <div className="App">
